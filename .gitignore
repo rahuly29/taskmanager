@@ -1,0 +1,26 @@
+# Environment variables - never commit this
+.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Django
+*.log
+db.sqlite3
+/staticfiles/
+/mediafiles/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
